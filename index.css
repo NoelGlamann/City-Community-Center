@@ -1,0 +1,59 @@
+/* Noel Glamann
+November 17, 2020 */
+
+.verticalmenu {
+	display: block;
+	width: 20%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #FAD4C0;
+	position: absolute;
+}
+
+.verticalmenu h2 {
+	color: #FEE9E1;
+	display: block;
+	padding: 8px;
+	font-size: 35px;
+	background-color: #8C5E58;
+	position: relative;
+}
+	
+.verticalmenu a {
+	color: black;
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 20px;
+	border-bottom: solid 1px #8B9556;
+	position: relative;
+}
+
+.verticalmenu a:last-child{
+	border-bottom: none;
+}
+
+.verticalmenu a:hover{
+	background: #FEE9E1;
+}
+
+.calendarsection{
+	display: block;
+	position:absolute;
+	float:left;
+	margin-left:25%;
+}
+
+.buttons {
+	display: inline;
+	margin: 10px;
+	font-size: 30px;
+	background: #8B9556
+}
+
+.calendarsection iframe{
+	height: 800px;
+	width: 1220px;
+}

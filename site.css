@@ -1,0 +1,36 @@
+/* Noel Glamann
+November 17, 2020 */
+  
+body{
+	background: #FEE9E1;
+	font-family: Arial;
+}
+
+.heading {
+	display: block;
+	width: 100%;
+	background: #FAD4C0;
+	height: 130px;
+	border-bottom: solid 3px #8B9556;
+	
+}
+
+.heading h1 {
+	display: block;
+	float: right;
+	width: 80%;
+	color: #8C5E58;
+	text-align: center;
+	font-size: 50px;
+	background: #FAD4C0;
+	position: relative;
+}
+
+.heading img {
+	display: block;
+	float: left;
+	height: 130px;
+	padding-left: 20px;
+	background-color: white;
+	background: #FAD4C0;
+}

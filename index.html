@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Noel Glamann 
+November 16, 2020
+
+HTML/CSS Lab
+Creating a website for the city community center. 
+-->
+
+<html>
+	<head>
+		<title>Dualberg Community Center</title>
+		<link rel="stylesheet" href="site.css">
+		<link rel="stylesheet" href="index.css">
+	</head>
+	
+	<body>
+		<!-- HEADING -->
+		<div class="heading">
+			<img src="./Photos/community_center.png" alt="Community Center">
+			<h1>Dualberg Community Center</h1>
+		</div>
+		
+		<!--NAVIGATION-->
+		
+		<div class="verticalmenu">
+			<h2> Organizations </h2>
+			<a href="./main.html">Dualberg Community Center</a>
+			<a href="./whitelodge.html">The White Lodge</a>
+			<a href="./blindeye.html">Society of the Blind Eye</a>
+			<a href="./kyoshi.html">Kyoshi Warriors Bridge Club</a>
+			<a href="./scouts.html">Girl Scout Troop 9256</a>
+		</div>
+		
+		<!--CONTENT  (CALENDARS)-->
+		<div class="calendarsection">
+			<div>
+				<button onclick="current()" class="buttons"> Current </button>
+				<button onclick="next()" class="buttons"> December </button>
+				<button onclick="twoOut()" class="buttons"> January </button>
+				<button onclick="threeOut()" class="buttons"> February </button>
+			</div>
+			<h2>November 2020</h2>
+			<iframe  id="calendar" src="./Calendars/current_november.html" title="Calendar"style="border:none;">
+		</div>
+		
+		<script>
+			function current() {
+				document.getElementByID("calendar".src = "./Calendars/current_november.html";
+			}
+			
+			function next() {
+				document.getElementByID("calendar".src = "./Calendars/december.html";
+			}
+			
+			function twoOut() {
+				document.getElementByID("calendar".src = "./Calendars/january.html";
+			}
+			
+			function threeOut() {
+				document.getElementByID("calendar".src = "./Calendars/february.html";
+			}
+		</script>
+		
+	</body>
+</html>
