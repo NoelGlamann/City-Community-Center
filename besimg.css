@@ -1,0 +1,33 @@
+/* IMAGES */
+
+.images{
+	display:block;
+}
+
+.topleft{
+	display:block;
+	float:left;
+	margin-top:50px;
+	margin-left: 40px;
+}
+
+.topright{
+	display: block;
+	float: right;
+	margin-top:25px;
+	margin-right: 40px;
+}
+
+.bottomleft{
+	display:block;
+	float:left;
+	margin-top:60px;
+	margin-left: 40px;
+}
+
+.bottomright{
+	display: block;
+	float: right;
+	margin-top:2%;
+	margin-right: 40px;
+}

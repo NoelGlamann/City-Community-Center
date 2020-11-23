@@ -1,0 +1,62 @@
+/* Noel Glamann
+November 17, 2020 */
+
+.information {
+	display: block;
+	width: 20%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	position: absolute;
+	background-color: #FAD4C0;
+}
+
+.information * {
+	background-color: #FAD4C0;
+}
+	
+.information h2 {
+	color: #FEE9E1;
+	display: block;
+	padding: 8px;
+	font-size: 35px;
+	background-color: #8C5E58;
+	position: relative;
+}
+
+.information address {
+	border-bottom: solid 1px #8B9556;
+}
+
+.information a {
+	color: black;
+}
+
+.information a:hover{
+	color: white;
+}
+
+.contact {
+	display: block;
+	border-bottom: solid 1px #8B9556;
+}
+.contact h3 {
+	font-size:25px;
+}
+
+.note {
+	display: block;
+	border-bottom: solid 1px #8B9556;
+}
+	
+.note h3 {
+	font-size:25px;
+}
+
+
+iframe {
+	margin-top:20px;
+	margin-left:25%;
+	height: 1000px;
+	width: 1300px;
+}
