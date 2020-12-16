@@ -39,13 +39,6 @@ November 17, 2020 */
 	background: #FEE9E1;
 }
 
-.calendarsection{
-	display: block;
-	position:absolute;
-	float:left;
-	margin-left:25%;
-}
-
 .buttons {
 	display: inline;
 	margin: 10px;
@@ -53,7 +46,11 @@ November 17, 2020 */
 	background: #8B9556
 }
 
-.calendarsection iframe{
-	height: 800px;
+iframe{
+	display: block;
+	position:absolute;
+	float:left;
+	margin-left:25%;
+	height: 1500px;
 	width: 1220px;
 }
